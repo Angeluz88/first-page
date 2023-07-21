@@ -1,0 +1,56 @@
+
+
+/*formulario*/
+form {
+  width: 69vw;
+  float: left;
+  list-style: none;
+  text-align: center;
+  height: 101vh;
+  background: var(--red-punch);
+  padding-top: 30px;
+ 
+}
+
+/*imagen lateral*/
+#grande {
+  height: 700px;
+  width: 29.5vw;
+  float: right;
+  margin: 0% auto;
+  list-style: none;
+  text-align: center;
+  background-color: var(--red-punch);
+  
+}
+/*titulo formulario*/
+table {
+  width: 100vw;
+    height: 100px;
+    float: inline-start;
+    list-style: none;
+    margin-top: 38px;
+    margin-bottom: 4px;
+    text-align: center; 
+    background-color: var(--red-punch);
+}
+h2{
+    font-size: 40px;
+}
+footer {
+  height: 100px;
+  list-style: none;
+  background: var(--red-punch);
+  text-align: center;
+  margin: 0% auto;
+}
+ul li{
+  text-align: left;
+}
+
+
+
+h4{
+  font-size: small;
+  text-align: end;
+}

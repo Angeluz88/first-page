@@ -1,0 +1,76 @@
+/*estilo general de la pagina*/
+*{
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: inline-end;
+}
+/* PALETA DE COLORES Y FONDO */
+:root{
+--contraste: rgb(1, 1, 1);
+--red-punch: rgba(164, 59, 41, 0.8);
+--body-gray: rgba(56, 30, 26, 0.9);
+--gray: rgba(176, 182, 189, 0.9);
+--ligth-yellow: rgba(245, 205, 103, 1);
+background-image: url(/images/wallpaper.jpeg);
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.menu {
+    height: 80px;
+    width: 100vw;
+    background-color: var(--red-punch);
+    border: 2px solid black;
+    color: var(--contraste);
+    position: fixed;
+    padding: 5px;
+  }
+
+
+/*damos valores generales a los elementos que aparecen en todas las paginas*/
+h1{
+    font-size: 60px;
+    color: var(--ligth-yellow);
+    text-align: center;
+   
+}
+
+.menu{
+    margin: 0px auto;
+    background-color: var(--red-punch);
+    width: 100%;
+    height: 15vh;
+    padding: 0%;
+    }
+
+    nav{
+    background: var(--body-gray);
+   }
+
+aside nav ul li
+{
+    float: right;
+    line-height: 100px;
+    list-style: none;
+    margin: 20px;
+    font-size: large;
+}
+/*especie de salto de linea en css*/
+.clearfix{
+    clear: both;
+}
+footer {
+    width: 95%;
+    list-style: none;
+    float: left;
+    text-align: right;
+    padding: 40px;
+    height: 5%;
+    background: var(--red-punch);
+    border: 2px solid black;
+  }
+
+
+

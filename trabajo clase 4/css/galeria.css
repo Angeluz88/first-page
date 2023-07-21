@@ -1,0 +1,38 @@
+
+/*titulo*/
+h1{
+    color: var(--ligth-yellow);
+}
+.pokerface{
+    width: 100vw;
+    height: 110px;
+    float: inline-start;
+    list-style: none;
+    margin-left: 0 auto;
+    text-align: center; 
+    margin-top: 20px;
+}
+    
+/*galeria de imagenes*/
+table{
+    width: 100vw;
+    height: 80vh;
+    border: 1px solid var(--contraste);
+    text-align: center;
+    background-color: var(--red-punch);
+
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    text-decoration-line:underline;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    text-decoration-line:underline;
+}
+p{
+    font-size: x-large;
+    text-decoration-line:underline;
+}
